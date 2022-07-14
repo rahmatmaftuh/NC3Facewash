@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A2721AA288005690090DFAD /* RAHMATTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2721A9288005690090DFAD /* RAHMATTEST.swift */; };
+		9A2721AC288007820090DFAD /* Rahmat test github.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2721AB288007820090DFAD /* Rahmat test github.swift */; };
 		9A876BB4287FE0460003363F /* NC3Facewash WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9A876BB9287FE0470003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BB8287FE0470003363F /* Assets.xcassets */; };
 		9A876BBF287FE0470003363F /* NC3Facewash WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -65,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		9A2721A9288005690090DFAD /* RAHMATTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAHMATTEST.swift; sourceTree = "<group>"; };
+		9A2721AB288007820090DFAD /* Rahmat test github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rahmat test github.swift"; sourceTree = "<group>"; };
 		9A876BAF287FE0460003363F /* NC3Facewash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC3Facewash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3Facewash WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A876BB8287FE0470003363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				9A876BC9287FE0470003363F /* NotificationView.swift */,
 				9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */,
 				9A2721A9288005690090DFAD /* RAHMATTEST.swift */,
+				9A2721AB288007820090DFAD /* Rahmat test github.swift */,
 				9A876BCB287FE0470003363F /* ComplicationController.swift */,
 				9A876BCD287FE0480003363F /* Assets.xcassets */,
 				9A876BD2287FE0480003363F /* Info.plist */,
@@ -275,6 +278,7 @@
 				9A876BC8287FE0470003363F /* NotificationController.swift in Sources */,
 				9A876BC6287FE0470003363F /* ContentView.swift in Sources */,
 				9A2721AA288005690090DFAD /* RAHMATTEST.swift in Sources */,
+				9A2721AC288007820090DFAD /* Rahmat test github.swift in Sources */,
 				9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */,
 				9BC22851287FE4F900B39262 /* NotificationViewNadia.swift in Sources */,
 				9A876BC4287FE0470003363F /* NC3FacewashApp.swift in Sources */,
