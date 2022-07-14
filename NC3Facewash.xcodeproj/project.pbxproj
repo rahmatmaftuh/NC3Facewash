@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A876BB4287FE0460003363F /* NC3Facewash WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A876BB9287FE0470003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BB8287FE0470003363F /* Assets.xcassets */; };
+		9A876BBF287FE0470003363F /* NC3Facewash WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A876BC4287FE0470003363F /* NC3FacewashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BC3287FE0470003363F /* NC3FacewashApp.swift */; };
+		9A876BC6287FE0470003363F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BC5287FE0470003363F /* ContentView.swift */; };
+		9A876BC8287FE0470003363F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BC7287FE0470003363F /* NotificationController.swift */; };
+		9A876BCA287FE0470003363F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BC9287FE0470003363F /* NotificationView.swift */; };
+		9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BCB287FE0470003363F /* ComplicationController.swift */; };
+		9A876BCE287FE0480003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BCD287FE0480003363F /* Assets.xcassets */; };
+		9A876BD1287FE0480003363F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BD0287FE0480003363F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A876BB5287FE0460003363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A876BA9287FE0460003363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A876BB2287FE0460003363F;
+			remoteInfo = "NC3Facewash WatchKit App";
+		};
+		9A876BC0287FE0470003363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A876BA9287FE0460003363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A876BBD287FE0470003363F;
+			remoteInfo = "NC3Facewash WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A876BD9287FE0480003363F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9A876BBF287FE0470003363F /* NC3Facewash WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A876BDD287FE0480003363F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9A876BB4287FE0460003363F /* NC3Facewash WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A876BAF287FE0460003363F /* NC3Facewash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC3Facewash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3Facewash WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A876BB8287FE0470003363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NC3Facewash WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A876BC3287FE0470003363F /* NC3FacewashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3FacewashApp.swift; sourceTree = "<group>"; };
+		9A876BC5287FE0470003363F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A876BC7287FE0470003363F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9A876BC9287FE0470003363F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9A876BCB287FE0470003363F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9A876BCD287FE0480003363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A876BD0287FE0480003363F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A876BD2287FE0480003363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A876BD3287FE0480003363F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A876BBB287FE0470003363F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A876BA8287FE0460003363F = {
+			isa = PBXGroup;
+			children = (
+				9A876BB7287FE0460003363F /* NC3Facewash WatchKit App */,
+				9A876BC2287FE0470003363F /* NC3Facewash WatchKit Extension */,
+				9A876BB0287FE0460003363F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A876BB0287FE0460003363F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A876BAF287FE0460003363F /* NC3Facewash.app */,
+				9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */,
+				9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A876BB7287FE0460003363F /* NC3Facewash WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9A876BB8287FE0470003363F /* Assets.xcassets */,
+			);
+			path = "NC3Facewash WatchKit App";
+			sourceTree = "<group>";
+		};
+		9A876BC2287FE0470003363F /* NC3Facewash WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9A876BC3287FE0470003363F /* NC3FacewashApp.swift */,
+				9A876BC5287FE0470003363F /* ContentView.swift */,
+				9A876BC7287FE0470003363F /* NotificationController.swift */,
+				9A876BC9287FE0470003363F /* NotificationView.swift */,
+				9A876BCB287FE0470003363F /* ComplicationController.swift */,
+				9A876BCD287FE0480003363F /* Assets.xcassets */,
+				9A876BD2287FE0480003363F /* Info.plist */,
+				9A876BD3287FE0480003363F /* PushNotificationPayload.apns */,
+				9A876BCF287FE0480003363F /* Preview Content */,
+			);
+			path = "NC3Facewash WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9A876BCF287FE0480003363F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A876BD0287FE0480003363F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A876BAE287FE0460003363F /* NC3Facewash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A876BDE287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash" */;
+			buildPhases = (
+				9A876BAD287FE0460003363F /* Resources */,
+				9A876BDD287FE0480003363F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A876BB6287FE0460003363F /* PBXTargetDependency */,
+			);
+			name = NC3Facewash;
+			productName = NC3Facewash;
+			productReference = 9A876BAF287FE0460003363F /* NC3Facewash.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9A876BB2287FE0460003363F /* NC3Facewash WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A876BDA287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash WatchKit App" */;
+			buildPhases = (
+				9A876BB1287FE0460003363F /* Resources */,
+				9A876BD9287FE0480003363F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A876BC1287FE0470003363F /* PBXTargetDependency */,
+			);
+			name = "NC3Facewash WatchKit App";
+			productName = "NC3Facewash WatchKit App";
+			productReference = 9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9A876BBD287FE0470003363F /* NC3Facewash WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A876BD6287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash WatchKit Extension" */;
+			buildPhases = (
+				9A876BBA287FE0470003363F /* Sources */,
+				9A876BBB287FE0470003363F /* Frameworks */,
+				9A876BBC287FE0470003363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC3Facewash WatchKit Extension";
+			productName = "NC3Facewash WatchKit Extension";
+			productReference = 9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A876BA9287FE0460003363F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9A876BAE287FE0460003363F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					9A876BB2287FE0460003363F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					9A876BBD287FE0470003363F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 9A876BAC287FE0460003363F /* Build configuration list for PBXProject "NC3Facewash" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A876BA8287FE0460003363F;
+			productRefGroup = 9A876BB0287FE0460003363F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A876BAE287FE0460003363F /* NC3Facewash */,
+				9A876BB2287FE0460003363F /* NC3Facewash WatchKit App */,
+				9A876BBD287FE0470003363F /* NC3Facewash WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A876BAD287FE0460003363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A876BB1287FE0460003363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A876BB9287FE0470003363F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A876BBC287FE0470003363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A876BD1287FE0480003363F /* Preview Assets.xcassets in Resources */,
+				9A876BCE287FE0480003363F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A876BBA287FE0470003363F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A876BC8287FE0470003363F /* NotificationController.swift in Sources */,
+				9A876BC6287FE0470003363F /* ContentView.swift in Sources */,
+				9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */,
+				9A876BC4287FE0470003363F /* NC3FacewashApp.swift in Sources */,
+				9A876BCA287FE0470003363F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A876BB6287FE0460003363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A876BB2287FE0460003363F /* NC3Facewash WatchKit App */;
+			targetProxy = 9A876BB5287FE0460003363F /* PBXContainerItemProxy */;
+		};
+		9A876BC1287FE0470003363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A876BBD287FE0470003363F /* NC3Facewash WatchKit Extension */;
+			targetProxy = 9A876BC0287FE0470003363F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A876BD4287FE0480003363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A876BD5287FE0480003363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A876BD7287FE0480003363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC3Facewash WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3Facewash WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NC3Facewash WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		9A876BD8287FE0480003363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC3Facewash WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC3Facewash WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NC3Facewash WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		9A876BDB287FE0480003363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NC3Facewash_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NC3Facewash WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		9A876BDC287FE0480003363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NC3Facewash_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NC3Facewash WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		9A876BDF287FE0480003363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A876BE0287FE0480003363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YH8BM5584;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rahmat-Maftuh.NC3Facewash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A876BAC287FE0460003363F /* Build configuration list for PBXProject "NC3Facewash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A876BD4287FE0480003363F /* Debug */,
+				9A876BD5287FE0480003363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A876BD6287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A876BD7287FE0480003363F /* Debug */,
+				9A876BD8287FE0480003363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A876BDA287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A876BDB287FE0480003363F /* Debug */,
+				9A876BDC287FE0480003363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A876BDE287FE0480003363F /* Build configuration list for PBXNativeTarget "NC3Facewash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A876BDF287FE0480003363F /* Debug */,
+				9A876BE0287FE0480003363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A876BA9287FE0460003363F /* Project object */;
+}
