@@ -19,6 +19,7 @@
 		9A876BCE287FE0480003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BCD287FE0480003363F /* Assets.xcassets */; };
 		9A876BD1287FE0480003363F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BD0287FE0480003363F /* Preview Assets.xcassets */; };
 		9A93383B288036A600DA00E1 /* Rahmattest1835.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93383A288036A600DA00E1 /* Rahmattest1835.swift */; };
+		9B470E262880F46000E48FD8 /* Nadia-08.03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E252880F46000E48FD8 /* Nadia-08.03.swift */; };
 		9BB66A9E288006DB00311845 /* Test git.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB66A9D288006DB00311845 /* Test git.swift */; };
 		9BB66AA02880306700311845 /* Nadiatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB66A9F2880306700311845 /* Nadiatest.swift */; };
 		9BC22851287FE4F900B39262 /* NotificationViewNadia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */; };
@@ -82,6 +83,7 @@
 		9A876BD2287FE0480003363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A876BD3287FE0480003363F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		9A93383A288036A600DA00E1 /* Rahmattest1835.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rahmattest1835.swift; sourceTree = "<group>"; };
+		9B470E252880F46000E48FD8 /* Nadia-08.03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nadia-08.03.swift"; sourceTree = "<group>"; };
 		9BB66A9D288006DB00311845 /* Test git.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test git.swift"; sourceTree = "<group>"; };
 		9BB66A9F2880306700311845 /* Nadiatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nadiatest.swift; sourceTree = "<group>"; };
 		9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewNadia.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				9A93383A288036A600DA00E1 /* Rahmattest1835.swift */,
 				9BB66A9D288006DB00311845 /* Test git.swift */,
 				9A2721A9288005690090DFAD /* RAHMATTEST.swift */,
+				9B470E252880F46000E48FD8 /* Nadia-08.03.swift */,
 				9A876BCB287FE0470003363F /* ComplicationController.swift */,
 				9A876BCD287FE0480003363F /* Assets.xcassets */,
 				9A876BD2287FE0480003363F /* Info.plist */,
@@ -286,6 +289,7 @@
 				9A876BC6287FE0470003363F /* ContentView.swift in Sources */,
 				9A2721AA288005690090DFAD /* RAHMATTEST.swift in Sources */,
 				9A93383B288036A600DA00E1 /* Rahmattest1835.swift in Sources */,
+				9B470E262880F46000E48FD8 /* Nadia-08.03.swift in Sources */,
 				9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */,
 				9BC22851287FE4F900B39262 /* NotificationViewNadia.swift in Sources */,
 				9BB66A9E288006DB00311845 /* Test git.swift in Sources */,
