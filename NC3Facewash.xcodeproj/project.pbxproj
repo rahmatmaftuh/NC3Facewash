@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A2721AA288005690090DFAD /* RAHMATTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2721A9288005690090DFAD /* RAHMATTEST.swift */; };
 		9A876BB4287FE0460003363F /* NC3Facewash WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9A876BB9287FE0470003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BB8287FE0470003363F /* Assets.xcassets */; };
 		9A876BBF287FE0470003363F /* NC3Facewash WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9A876BBE287FE0470003363F /* NC3Facewash WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -18,13 +17,6 @@
 		9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A876BCB287FE0470003363F /* ComplicationController.swift */; };
 		9A876BCE287FE0480003363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BCD287FE0480003363F /* Assets.xcassets */; };
 		9A876BD1287FE0480003363F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A876BD0287FE0480003363F /* Preview Assets.xcassets */; };
-		9A93383B288036A600DA00E1 /* Rahmattest1835.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93383A288036A600DA00E1 /* Rahmattest1835.swift */; };
-		9AF4279F28810EEC00E7F7BC /* 15jul0955.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4279E28810EEC00E7F7BC /* 15jul0955.swift */; };
-		9B470E262880F46000E48FD8 /* Nadia-08.03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E252880F46000E48FD8 /* Nadia-08.03.swift */; };
-		9B470E6328810F9200E48FD8 /* Nadia-09.59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B470E6228810F9200E48FD8 /* Nadia-09.59.swift */; };
-		9BB66A9E288006DB00311845 /* Test git.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB66A9D288006DB00311845 /* Test git.swift */; };
-		9BB66AA02880306700311845 /* Nadiatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB66A9F2880306700311845 /* Nadiatest.swift */; };
-		9BC22851287FE4F900B39262 /* NotificationViewNadia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9A2721A9288005690090DFAD /* RAHMATTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAHMATTEST.swift; sourceTree = "<group>"; };
 		9A876BAF287FE0460003363F /* NC3Facewash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC3Facewash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A876BB3287FE0460003363F /* NC3Facewash WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3Facewash WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A876BB8287FE0470003363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,13 +75,6 @@
 		9A876BD0287FE0480003363F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A876BD2287FE0480003363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A876BD3287FE0480003363F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		9A93383A288036A600DA00E1 /* Rahmattest1835.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rahmattest1835.swift; sourceTree = "<group>"; };
-		9AF4279E28810EEC00E7F7BC /* 15jul0955.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15jul0955.swift; sourceTree = "<group>"; };
-		9B470E252880F46000E48FD8 /* Nadia-08.03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nadia-08.03.swift"; sourceTree = "<group>"; };
-		9B470E6228810F9200E48FD8 /* Nadia-09.59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nadia-09.59.swift"; sourceTree = "<group>"; };
-		9BB66A9D288006DB00311845 /* Test git.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test git.swift"; sourceTree = "<group>"; };
-		9BB66A9F2880306700311845 /* Nadiatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nadiatest.swift; sourceTree = "<group>"; };
-		9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewNadia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,19 +122,11 @@
 				9A876BC5287FE0470003363F /* ContentView.swift */,
 				9A876BC7287FE0470003363F /* NotificationController.swift */,
 				9A876BC9287FE0470003363F /* NotificationView.swift */,
-				9BB66A9F2880306700311845 /* Nadiatest.swift */,
-				9BC22850287FE4F900B39262 /* NotificationViewNadia.swift */,
-				9AF4279E28810EEC00E7F7BC /* 15jul0955.swift */,
-				9A93383A288036A600DA00E1 /* Rahmattest1835.swift */,
-				9BB66A9D288006DB00311845 /* Test git.swift */,
-				9A2721A9288005690090DFAD /* RAHMATTEST.swift */,
-				9B470E252880F46000E48FD8 /* Nadia-08.03.swift */,
 				9A876BCB287FE0470003363F /* ComplicationController.swift */,
 				9A876BCD287FE0480003363F /* Assets.xcassets */,
 				9A876BD2287FE0480003363F /* Info.plist */,
 				9A876BD3287FE0480003363F /* PushNotificationPayload.apns */,
 				9A876BCF287FE0480003363F /* Preview Content */,
-				9B470E6228810F9200E48FD8 /* Nadia-09.59.swift */,
 			);
 			path = "NC3Facewash WatchKit Extension";
 			sourceTree = "<group>";
@@ -291,16 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A876BC8287FE0470003363F /* NotificationController.swift in Sources */,
-				9BB66AA02880306700311845 /* Nadiatest.swift in Sources */,
 				9A876BC6287FE0470003363F /* ContentView.swift in Sources */,
-				9A2721AA288005690090DFAD /* RAHMATTEST.swift in Sources */,
-				9A93383B288036A600DA00E1 /* Rahmattest1835.swift in Sources */,
-				9B470E262880F46000E48FD8 /* Nadia-08.03.swift in Sources */,
-				9AF4279F28810EEC00E7F7BC /* 15jul0955.swift in Sources */,
 				9A876BCC287FE0470003363F /* ComplicationController.swift in Sources */,
-				9B470E6328810F9200E48FD8 /* Nadia-09.59.swift in Sources */,
-				9BC22851287FE4F900B39262 /* NotificationViewNadia.swift in Sources */,
-				9BB66A9E288006DB00311845 /* Test git.swift in Sources */,
 				9A876BC4287FE0470003363F /* NC3FacewashApp.swift in Sources */,
 				9A876BCA287FE0470003363F /* NotificationView.swift in Sources */,
 			);
